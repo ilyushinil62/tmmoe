@@ -1,0 +1,22 @@
+---
+title: Problematic Media
+description: tl;dr it's not so over just because you were an idiot as a 12 year old.
+date: 2025-04-01
+tags: another tag
+---
+
+In the (admittedly unrefined and now deleted) first post of this blog I briefly discussed the factors which influence our perceptions right and wrong, one of those factors was media. And it is because of this, that I view the constant hostility toward media which contains problematic contents to be downright foolish; for it is not media which is encouraging the populace to partake in activities deemed as wrong by society, but rather, it is media's depiction of such activities that pushes this belief.
+
+In my eyes media that is problematic in nature can largely be classified into two fields, however, it is possible for media to simultaneously exist in both. 
+
+The first field, which henceforth shall be referred to as the 'point-driven' form of problematic media serves to bolster society's views of right and wrong by portraying often uncomfortable subjects in a realistic light. This media doesn't exist to endorse problematic actions, but rather, serves to depict the horrors of them. The best known example of this in my eyes would be *Of Mice and Men* and similar books.
+
+The second field, which henceforth shall be referred to as the 'escapism-driven' form of problematic media largely exists for the purpose of providing a source of escapism for the consumer. This is content, which whilst problematic in nature through the eyes of some, is grounded so loosely in reality that it's foolish to take as social commentary. Think of the *Rance* series and other eroge. 
+
+I've seen both of these fields criticized equally, but I felt as though the differentiation was important to make prior to writing further; albeit I feel as though both mediums are equally valid.
+
+The greatest criticism I've seen for media with problematic contents is that such media serves to glorify, or make light of, often reprehensible subjects. Yet, I'd argue in the case of point-driven media, the complete opposite is true. To reuse my earlier example, *Of Mice and Men* has garnered a great deal of criticism over the years, and appeared frequently on banned book lists due to it's depiction of racism.
+
+But to criticize this book, or to wish for this book to be banned, in my eyes, is to do the complete opposite of advocating for greater moralism within our society. This is not a work which utilizes racism as to push the agenda of some extremist party; it is a work which depicts racism as it truly appeared at one point within the United States.
+
+If we are not to face the harsh realities of our world, and not to recognize them within our creative works, then the very morals which the critics of these works are seeking to uphold will fade with time. If we do not wish for the people of our world to learn morals through their own misfortunes, then it is ultimately the role of media to do so.
