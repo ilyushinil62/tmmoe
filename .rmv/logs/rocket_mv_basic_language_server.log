@@ -2068,3 +2068,10 @@ Account{name=..., path=..., type=PREDICT}
 2025-04-01 10:04:25.367 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting)
 2025-04-01 10:04:27.038 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
 2025-04-01 10:04:29.342 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting)
+2025-04-01 10:04:34.421 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
+2025-04-01 10:04:59.047 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020201]project documentation update start
+2025-04-01 10:04:59.047 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020202]project documentation update end
+2025-04-01 10:04:59.048 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-04-01 10:04:59.048 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-04-01 10:04:59.048 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030201]convertors for folder(E:/webdev/cat11ty/trademarkmoe11tytesting) reload start
+2025-04-01 10:04:59.049 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030202]convertors for folder(E:/webdev/cat11ty/trademarkmoe11tytesting) load end
