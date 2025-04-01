@@ -2085,3 +2085,5 @@ Account{name=..., path=..., type=PREDICT}
 2025-04-01 10:05:31.223 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/content/blog)
 2025-04-01 10:05:31.378 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/content/blog)
 2025-04-01 10:05:32.745 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
+2025-04-01 10:05:34.961 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/content/blog)
+2025-04-01 10:05:36.309 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
