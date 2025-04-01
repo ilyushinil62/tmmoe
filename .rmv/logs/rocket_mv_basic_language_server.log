@@ -2064,3 +2064,7 @@ Account{name=..., path=..., type=PREDICT}
 2025-04-01 10:04:05.509 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting)
 2025-04-01 10:04:08.746 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
 2025-04-01 10:04:20.826 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting)
+2025-04-01 10:04:21.885 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
+2025-04-01 10:04:25.367 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting)
+2025-04-01 10:04:27.038 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting/.git)
+2025-04-01 10:04:29.342 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/webdev/cat11ty/trademarkmoe11tytesting)
