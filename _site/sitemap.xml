@@ -62,17 +62,17 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/feed/feed.xml</loc>
-		<lastmod>2025-03-31</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/blog/past/</loc>
 		<lastmod>2025-04-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/blog/problematicmedia/</loc>
+		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/feed/feed.xml</loc>
 		<lastmod>2025-04-01</lastmod>
 	</url>
 </urlset>
