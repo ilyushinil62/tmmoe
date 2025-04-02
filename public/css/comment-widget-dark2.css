@@ -66,7 +66,7 @@
     border-bottom: 0.5px dashed white;
     height: 25px;
     margin: auto;
-    font-family: ''Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
 }
 #c_submitButton{
     border: 0px;
@@ -74,84 +74,86 @@
     border-top: 0.5px dashed white;
     width: 100%;
     height: 25px;
-    font-family: ''Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
     }
 
 .c-nameLabel {
     padding: 3.0px;
-    border-bottom: 0.5px dashed white;
-    border-left: 0.5px dashed white;
-    padding-left: 15px;
+    padding-left: 24pxsx;
     float: right;
     font-size: 16px;
+
 }
 
 .c-nameInput {
     width: 549.5px;
     line-height: 22px;
-    border: 0px;
-    border-bottom: 0.5px dashed white;
+	border-right: 0.5px dashed white;
     background-color: black;
     color: white;
     font-size: 16px;
     float: left;
+	font-family: 'Times New Roman', Times, serif;
     
 }
 
 .c-websiteInput {
     width: 549.5px;
     line-height: 22px;
-    border: 0px;
-    border-bottom: 0.5px dashed white;
-    background-color: black;
+	border-right: 0.5px dashed white;
+	border-top: 0.5px dashed white;
+	border-bottom: 0.5px dashed white;
+	background-color: black;
     font-size: 16px;
     float: left;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 .c-textInput {
     border: 0px;
     background-color: black;
     width: 100%;
-    font-family: ''Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
 
 }
 .c-websiteLabel {
     padding: 3.0px;
-    border-bottom: 0.5px dashed white;
-    border-left: 0.5px dashed white;
-    padding-left: 22px;
+    border: 0.5px dashed white;
+	border-left: none;
+	border-right: none;
+    padding-left: 24px;
     float: right;
     font-size: 16px;
-    font-family: ''Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #c_widget {
     text-indent: 0px;
     box-sizing: border-box;
-    height: 800px;
+    height: fit-content;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
     background-attachment: fixed;
-    font-family: ''Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: white;
     width: 600px;
     margin: 0 auto;
-    border-left: 0.5px dashed white;
-    border-right: 0.5px dashed white;
-    border-bottom: 0.5px dashed white;
+    border: 0.5px dashed;
+	font-size: 16px;
 
 }
 
 #c_widget button,
 #c_widget input[type=submit] {
-    font-family: ''Times New Roman', Times, serif';
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     text-align: center;
     background-color: black;
     color: white;
-    margin: auto;
+    margin: 0;
 
 }
 
@@ -192,6 +194,7 @@
     display: block;
     margin-left: auto;
     margin-right: 0;
+    margin: 0;
 }
 
 #c_replyingText {
@@ -231,7 +234,6 @@
     padding-left: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 19.0px;
-    padding-bottom: 2px;
     font-style: italic;
     width: auto;
     padding-right: 0px;
@@ -244,7 +246,7 @@
     padding-left: 4px;
     padding-right: 4px;
     border-left: 0.5px dashed white;
-    font-size: 16px;
+    font-size: 17px;
     background-color: white;
     background-color: black;
 }
@@ -253,25 +255,23 @@
 .c-timestamp {
     font-family: 'Times New Roman', Times, serif;
     float: right;
-    border-left: 1px dashed black;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 2x;
-    font-size: 16px;
-    background-color: white;
-    color: black;
+    font-size: 17px;
+    color: white;
+    border-left: 0.5px dashed white;
 }
 
 .c-text {
-    margin-left: 0%;
     padding: 10px;
     justify-self: right;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
     color: white;
     background-color: black;
     border-top: 0.5px dashed white;
+	margin: 0;
 }
 
 /* Pagination */

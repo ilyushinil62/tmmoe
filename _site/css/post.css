@@ -15,7 +15,7 @@ body, html {
     /* visited link */
     a:hover {
         color: #1CAC78;
-        text-decoration: none;
+        font-style: italic;
     }
 
     /* mouse over link */
@@ -49,11 +49,12 @@ ul {
 
 .direction {
     display: flex;
-    width: 600px;
+    width: 599px;
     flex-direction: row;
     list-style: none;
     border: 0.5px dashed white;
     text-align: center;
+    border-bottom: 0px;
 }
 
 .links-nextprev-prev {
@@ -82,4 +83,9 @@ ul {
 
 .tagdiv {
     border-top: 0.5px dashed white;
+}
+
+.indexbut {
+    text-align: center;
+    line-height: 41px;
 }
