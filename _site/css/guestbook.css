@@ -5,11 +5,7 @@
     padding-top: 20px;
 }
 
-html, body {
-    background-color: black;
-    height: 100%;
-    margin: 0;
-}
+
 .header {
     font-size: 40px;
     font-weight: bold;
@@ -23,4 +19,33 @@ html, body {
     width: 600px;
     height: fit-content;
     margin: 0 auto;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
 }

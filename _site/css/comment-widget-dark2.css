@@ -131,7 +131,7 @@
 #c_widget {
     text-indent: 0px;
     box-sizing: border-box;
-    height: fit-content;;
+    height: fit-content;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -153,7 +153,7 @@
     text-align: center;
     background-color: black;
     color: white;
-    margin: auto;
+    margin: 0;
 
 }
 
@@ -194,6 +194,7 @@
     display: block;
     margin-left: auto;
     margin-right: 0;
+    margin: 0;
 }
 
 #c_replyingText {
@@ -245,7 +246,7 @@
     padding-left: 4px;
     padding-right: 4px;
     border-left: 0.5px dashed white;
-    font-size: 19px;
+    font-size: 17px;
     background-color: white;
     background-color: black;
 }
@@ -254,16 +255,14 @@
 .c-timestamp {
     font-family: 'Times New Roman', Times, serif;
     float: right;
-    border-left: 1px dashed black;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 19px;
-    background-color: white;
-    color: black;
+    font-size: 17px;
+    color: white;
+    border-left: 0.5px dashed white;
 }
 
 .c-text {
-    margin-left: 0%;
     padding: 10px;
     justify-self: right;
     font-family: 'Times New Roman', Times, serif;
@@ -272,7 +271,7 @@
     color: white;
     background-color: black;
     border-top: 0.5px dashed white;
-	
+	margin: 0;
 }
 
 /* Pagination */

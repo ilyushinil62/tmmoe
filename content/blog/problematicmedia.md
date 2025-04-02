@@ -2,7 +2,7 @@
 title: Problematic Media
 description: tl;dr it's not so over just because you were an idiot as a 12 year old.
 date: 2025-04-01
-tags: another tag
+tags: 
 ---
 
 In the (admittedly unrefined and now deleted) first post of this blog I briefly discussed the factors which influence our perceptions right and wrong, one of those factors was media. And it is because of this, that I view the constant hostility toward media which contains problematic contents to be downright foolish; for it is not media which is encouraging the populace to partake in activities deemed as wrong by society, but rather, it is media's depiction of such activities that pushes this belief.
@@ -20,3 +20,15 @@ The greatest criticism I've seen for media with problematic contents is that suc
 But to criticize this book, or to wish for this book to be banned, in my eyes, is to do the complete opposite of advocating for greater moralism within our society. This is not a work which utilizes racism as to push the agenda of some extremist party; it is a work which depicts racism as it truly appeared at one point within the United States.
 
 If we are not to face the harsh realities of our world, and not to recognize them within our creative works, then the very morals which the critics of these works are seeking to uphold will fade with time. If we do not wish for the people of our world to learn morals through their own misfortunes, then it is ultimately the role of media to do so.
+
+This, however, is a point which only applies to the aforementioned point-driven media, as opposed to escapism-driven media, which seems to be far more controversial on internet spaces as of late. This is media which is far easier to view as glorifying terrible actions due to the nature of it.
+
+This is media which serves not to provide social commentary, but to entertain. And it's in this purpose that I feel the hatred for such media grows rather pointless. Let us take the *Rance* series as an example. *Rance* is a series of games which revolves around, to word it nicely, repeated non-consensual sexual altarcations. There is absolutely no societal commentary in this series, but similarly, there isn't any advocacy to take such actions into reality either.
+
+In my eyes, to depict an overly fantastical fantasy scenario in which there are no clear rules nor regulations set in place to counter such activities is not a mirror of reality. But rather, something solely created by the writer to entertain the delusions of the reader. This is not a piece of media which will drive people to take such actions in reality. And quite frankly, the very fact that they are actively seeking out a piece of media with such contents suggests that they have no intention to ever do so in reality.
+
+To utilize a more widely known example, I'd compare it to the *Call of Duty* franchise, in that, by depicting such actions in an overly dramatized, and not whatsoever realistic manner, it is not advocating for gun violence; it is simply a form of predominantly mindless entertainment. 
+
+That is what the escaism-driven sect of media revolves around, they aren't inherently there to push any given moral agenda, but similarly, they don't exist to advocate for individuals to take actions of moral reprehensibility in reality. These are pieces of media which are actively sought out by individuals seeking entertainment, and there is little more to it.
+
+To wrap this up simply, problematic media does serve a rather notable purpose in society by warning us of the horrors of many terrible actions, but similarly, it also serves as a form of overly-satirized entertainment in some cases. Quite frankly, I don't feel as though either field is inherently bad nor good, it's simply up to the consumer if they wish to indulge in either.s

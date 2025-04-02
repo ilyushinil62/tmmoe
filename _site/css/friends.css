@@ -17,7 +17,7 @@ html {
     /* visited link */
     a:hover {
         color: #1CAC78;
-        text-decoration: none;
+        font-style: italic;
     }
 
     /* mouse over link */
