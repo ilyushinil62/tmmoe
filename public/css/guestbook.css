@@ -10,3 +10,17 @@ html, body {
     height: 100%;
     margin: 0;
 }
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1CAC78;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main {
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+}

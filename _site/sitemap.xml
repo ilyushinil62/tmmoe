@@ -32,36 +32,6 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/about/</loc>
-		<lastmod>2025-03-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/blog/</loc>
-		<lastmod>2025-03-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/</loc>
-		<lastmod>2025-03-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/tags/</loc>
-		<lastmod>2025-03-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/guestbook/</loc>
-		<lastmod>2025-03-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/friends/</loc>
-		<lastmod>2025-03-31</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/blog/past/</loc>
 		<lastmod>2025-04-01</lastmod>
 	</url>
@@ -72,7 +42,37 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/feed/feed.xml</loc>
+		<loc>https://example.com/about/</loc>
 		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/blog/</loc>
+		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/friends/</loc>
+		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/guestbook/</loc>
+		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/</loc>
+		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/</loc>
+		<lastmod>2025-04-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/feed/feed.xml</loc>
+		<lastmod>2025-04-02</lastmod>
 	</url>
 </urlset>
