@@ -1,0 +1,135 @@
+.container {
+    display: grid;
+    grid-template-columns: 142px 180px 223px 40px 183px;
+    grid-template-rows: 1fr 0.31fr 1.3fr 1.39fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+        "calendar header header trademark nav"
+        "blog blog about trademark nav"
+        "blog blog about trademark nav"
+        "footer footer footer trademark nav";
+    width: 950px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    background: black;
+    width: 565px;
+}
+
+.nav {
+    grid-area: nav;
+
+}
+
+.trademark {
+    grid-area: trademark;
+    color: white;
+    width: 50px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(28, 172, 120, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.name {
+    transform: rotate(90deg);
+    height: 50px;
+    white-space: nowrap;
+    font-size: 32px
+}
+
+.header {
+    grid-area: header;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(28, 172, 120, 1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-image-slice: 1;
+}
+
+.footer {
+    grid-area: footer;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(28, 172, 120, 1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-image-slice: 1;
+}
+
+.blog {
+    grid-area: blog;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(28, 172, 120, 1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-image-slice: 1;
+}
+
+.about {
+    grid-area: about;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(28, 172, 120, 1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-image-slice: 1;
+}
+
+.calendar {
+    grid-area: calendar;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(28, 172, 120, 1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-image-slice: 1;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(90deg, rgba(28, 172, 120, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%), 
+    url('/img/powerlinetint.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+    a:link {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(28, 172, 120, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(28, 172, 120, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(28, 172, 120, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(28, 172, 120, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+
+    /* selected link */
+
+}

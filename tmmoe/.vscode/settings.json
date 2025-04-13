@@ -1,0 +1,25 @@
+{
+    "liveServer.settings.port": 5501,
+    "[rocket-mvbasic]": {
+        "editor.codeLens": false
+    },
+    "files.associations": {
+        "*.json.liquid": "json",
+        "*.yaml.liquid": "yaml",
+        "*.md.liquid": "markdown",
+        "*.js.liquid": "liquid-javascript",
+        "*.css.liquid": "liquid-css",
+        "*.scss.liquid": "liquid-scss",
+        "*.njk": "html",
+        "**/.rmv/config/*.json": "jsonc"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.rmv/catalog/**": true,
+        "*/_*": false
+    }
+}

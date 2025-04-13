@@ -1,0 +1,67 @@
+
+.posts {
+    grid-area: posts;
+    width: 600px;
+    color: white;
+    margin: 0 auto;
+}
+
+
+.blogtext {
+    height: 300px;
+    text-indent: 25px;
+    font-size: 17px;
+}
+
+.blogname {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-indent: 0px;
+}
+.postlist-date {
+font-size: 30px;
+}
+
+
+.yana {
+    position: fixed; 
+    right: 5%;
+    bottom: 0px;
+    height: 20%;
+    width: auto;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* selected link */
+
+}

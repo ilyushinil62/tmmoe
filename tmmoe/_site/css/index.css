@@ -1,0 +1,155 @@
+.container {
+    display: grid;
+    grid-template-columns: 500px 50px 60px;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main name nav";
+    width: 560px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.latestlist {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    height: 100%
+}
+
+.latestlistitem {
+    height: 19.5%;
+    border-bottom: 0.5px dashed white;
+}
+
+.latestlistitem:first-child {
+    border-bottom: 0.5px dashed white;
+    height: 19.5%
+}
+
+.latestlistitem:last-child {
+    border-bottom: 0px;
+    height: 19.5%
+}
+
+.main {
+    grid-area: main;
+    color: white;
+}
+
+.blogtext {
+    height: 300px;
+    text-indent: 25px;
+    font-size: 17px
+}
+
+.blogname {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color : white
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    height: 31px;
+    justify-content: center;
+}
+
+.dumbbox {
+    height: 200px;
+    border: 0.5px dashed white;
+    display: flex;
+    flex-direction: row;
+}
+
+.latestblog {
+    width: 65%;
+
+}
+
+.warning {
+    padding: 25px;
+    overflow: hidden;
+    width: 35%;
+    border-left: 0.5px dashed white;
+    background-image: url(/img/ayanscii.png);
+    background-size: 100%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.name {
+    grid-area: name;
+    color: white;
+}
+
+.moe {
+    color: #1CAC78;
+}
+
+.headertext {
+    transform: rotate(90deg);
+    height: 50px;
+    white-space: nowrap;
+    font-size: 32px
+}
+
+.nav {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    text-indent: 0px;
+}
+
+.navlist {
+    padding: 0px;
+}
+
+.navitem {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #1CAC78;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* selected link */
+
+}
+

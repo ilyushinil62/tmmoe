@@ -1,0 +1,62 @@
+body,
+html {
+    background-color: black;
+    color: white;
+
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main {
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.friendtext {
+    width: 600px;
+    margin: 0 auto;
+    text-indent: 25px;
+    font-size: 17px;
+}
+
+.friendheader {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

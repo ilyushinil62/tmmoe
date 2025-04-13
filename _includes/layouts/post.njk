@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link href="/css/post.css" rel="stylesheet" />
+</head>
+
+<div class="post">
+<div class="postname">{{ title }}</div>
+
+<div class="post-metadata">
+	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+	{%- for tag in tags | filterTagList %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li class="tagdiv"><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %} {% endif %}</li>
+	{%- endfor %}
+</div>
+
+{{ content | safe }}
+
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<div class="direction">
+	{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+	<li class="links-home">
+		<a href="/" class="indexbut">index</a>
+	</li>
+	{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+</div>
+{%- endif %}
+{%- endif %}
+    <div id="c_widget"></div>
+<script src="/scripts/guestbook-widget.js"></script>
+</div>
+
+</html>

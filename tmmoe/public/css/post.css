@@ -1,0 +1,91 @@
+body, html {
+    background-color: black;
+    color: white;
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+}
+
+.post {
+    width: 600px;
+    margin: 0 auto;
+    text-indent: 25px;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+.postname {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color : white;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.direction {
+    display: flex;
+    width: 599px;
+    flex-direction: row;
+    list-style: none;
+    border: 0.5px dashed white;
+    text-align: center;
+    border-bottom: 0px;
+}
+
+.links-nextprev-prev {
+    width: 40%;
+    border-right: 0.5px dashed white;
+}
+
+.links-home {
+    width: 20%
+}
+
+.links-nextprev-next {
+    width: 40%;
+    border-left: 0.5px dashed white;
+}
+
+.post-metadata {
+    border: 0.5px dashed white;
+    list-style: none;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-indent: 0px;
+    text-align: center;
+}
+
+.tagdiv {
+    border-top: 0.5px dashed white;
+}
+
+.indexbut {
+    text-align: center;
+    line-height: 41px;
+}

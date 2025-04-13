@@ -1,0 +1,51 @@
+.guestbook {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1CAC78;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main {
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+}
