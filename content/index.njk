@@ -46,17 +46,23 @@ order: 1
                         <ul class="latestlist">
                             {% set postslist = collections.posts | head(-1 * 5) %}
                             {% set postslistCounter = postsCount %}
-                            {% include "postslist.njk" %}
-
-                            {# List every content page in the project #}
-                            {#
-                            <ul>
-                                {%- for entry in collections.all %}
-                                <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-                                {%- endfor %}
-                            </ul>
-                            #}
-
+                            {# Get the five most recent posts (newest first) #}
+                            {% for post in postslist %}
+                            <li class="latestlistitem">
+                                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                                <div class="preview">
+                                    <p>
+                                        {{ post.date | readableDate("LLLL yyyy") }}
+                                        {% if post.data.tags %}
+                                          | 
+                                          {% for tag in post.data.tags %}
+                                            <a href="/tags/{{ tag | url }}">{{ tag }}</a>{% if not loop.last %} | {% endif %}
+                                          {% endfor %}
+                                        {% endif %}
+                                      </p>
+                                </div>
+                            </li>
+                            {% endfor %}
                         </ul>
                     </div>
                     <div class="warning">
@@ -67,7 +73,7 @@ order: 1
         </div>
         <div class="name">
             <div class="headertext">
-                trademark.moe trademark.moe trademark.<span class=moe>moe</span>
+                trademark.moe trademark.moe trademark.moe
             </div>
         </div>
         <div class="nav">
@@ -76,7 +82,7 @@ order: 1
                     <a href="blog">journal</a>
                 </li>
                 <li class="navitem">
-                   <a href="friends">friends</a>
+                    <a href="friends">friends</a>
                 </li>
                 <li class="navitem">
                     <a href="guestbook">guestbook</a>
@@ -86,4 +92,5 @@ order: 1
     </div>
 
 </body>
+
 </html>

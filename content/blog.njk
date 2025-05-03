@@ -11,27 +11,59 @@ order: 2
 	<link href="/css/blog.css" rel="stylesheet" />
 </head>
 
-<div class="posts">
-	{% set postslist = collections.posts | head(-1 * 9999) %}
-	{% set postslistCounter = postsCount %}
-	{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{%
-	endcss %}
-	{%- for post in postslist | reverse %}
-	<div class="blogname">
-		<ul reversed class="latestlist">
-			<div class="latestlistitem">
-				<div class="postlist-link"><a href="{{ post.url }}" class="postlist-link"> <span class="moe"></span>{% if post.data.title %}{{ post.data.title }}{% else %}{% endif %}</a></div>
-				<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate(" DDDD ")
-				}}</time>
-			</div>
-		</ul>
-	</div>
-	<div class="blogtext">
-		<p>
-			{{post.templateContent | excerpt1 }}
-		</p>
+<body>
+	<div class="container">
+		<div class="ascii"></div>
+		<div class="nav"></div>
+		<div class="posts">
+			{% set postslist = collections.posts | head(-1 * 9999) %}
+			{% for post in postslist | reverse %}
+			<div class="blogpost">
+				<div class="blogpost-inner">
+					<div class="blogpost-front">
+						<div class="blogname">
+							<a href="{{ post.url }}" class="postlist-link">
+								{{ post.data.title }}
+							</a>
+						</div>
+						<div class="postlist-date">
+							<time datetime="{{ post.date | htmlDateString  }}">
+								{{ post.date | readableDate("DDDD") }}
+							</time>
+						</div>
+						<div class="blogtext">
+							<p>{{ post.templateContent | excerpt1 }}</p>
+						</div>
+					</div>
 
-		{%- endfor %}
+					<div class="blogpost-back">
+						<div class="backtext">
+							<h2>
+								{% if post.data.tags %}
+
+								{% for tag in post.data.tags %}
+								<a href="/tags/{{ tag | url  }}">{{ tag }}</a>{% if not loop.last %} | {% endif %}
+								{% endfor %}
+								{% endif %}
+							</h2>
+							<h2>{{ post.templateContent | wordCount }} words
+							</h2>
+							<h2>
+								{{ post.templateContent | readTime }} minute(s)
+							</h2>
+							<div class="read">
+								<a href="{{ post.url }}" class="postlist-link">
+									read </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
 
 	<img class="yana" src="/ayanscii22.png" alt="yaneth">
+</body>
+
+</html>

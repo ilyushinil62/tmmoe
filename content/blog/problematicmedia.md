@@ -1,7 +1,7 @@
 ---
 title: Problematic Media
 description: tl;dr it's not so over just because you were an idiot as a 12 year old.
-date: 2025-04-01
+date: 2025-03-01
 tags: 
 ---
 
