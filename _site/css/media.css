@@ -1,0 +1,181 @@
+.posts {
+	width: 850px;
+	color: white;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(1, 800px);
+	grid-auto-rows: auto;
+    border-width: 6px;
+    border-style: solid;
+    border-image:
+        linear-gradient(180deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(28, 172, 120, 1) 100%) 1
+}
+
+.header {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(28, 172, 120, 1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 850px;
+    margin-top: 20px;
+    grid-template-columns: 1.5fr 2.5fr 1.5fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "tmdateh titleh publdateh ratingh statush notesh notesh";
+    display: grid;
+
+
+}
+
+.tmdateh {
+    grid-area: tmdateh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleh {
+    grid-area: titleh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.publdateh {
+    grid-area: publdateh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ratingh {
+    grid-area: ratingh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.statush {
+    grid-area: statush;
+    display: flex;
+    justify-content: center;
+    
+}
+.notesh {
+    grid-area: notesh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.review {
+    position: relative;
+	display: grid;
+	grid-template-columns: 1.5fr 2.5fr 1.5fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: [r] 50px;
+	gap: 0px 0px;
+	grid-template-areas: "tmdate title publdate rating status notes notes";
+	width: 850px;
+	height: 50px;
+	color: white;
+    border-bottom: 0.5px dashed white;
+}
+
+.review:last-child {
+    border-bottom: 0px 
+}
+
+.tmdate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	grid-area: tmdate;
+    border-right: 0.5px dashed white;
+    padding: 5px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	grid-area: title;
+    padding: 5px;
+    border-right: 0.5px dashed white;
+}
+.publdate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	grid-area: publdate;
+    padding: 5px;
+    border-right: 0.5px dashed white;
+}
+.notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	grid-area: notes;
+    padding: 5px;
+}
+.read {
+	grid-area: read;
+    padding: 5px;
+    border-right: 0.5px dashed white;
+}
+.rating {
+    display:flex;
+	grid-area: rating;
+    padding: 5px;
+    border-right: 0.5px dashed white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	grid-area: status;
+    padding: 5px;
+    border-right: 0.5px dashed white;
+}
+
+
+html,
+body {
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 10%) 0%, rgba(0, 0, 0, 1) 50%), 
+    url(/img/tmbgmiddle.jpg) no-repeat left center / cover;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+
+    a:link {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* unvisited link */
+    a:visited {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:hover {
+        color: #1CAC78;
+        font-style: italic;
+    }
+
+    /* mouse over link */
+    a:active {
+        color: #1CAC78;
+        text-decoration: none;
+    }
+
+    /* selected link */
+
+}

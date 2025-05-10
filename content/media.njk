@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="/css/media.css" rel="stylesheet" /> 
+		<link href="/css/reset.css" rel="stylesheet" />
+	</head>
+<body>
+    <div class="header">
+        <div class="tmdateh">date</div>
+        <div class="titleh">title/review</div>
+        <div class="publdateh">published</div>
+        <div class="ratingh">rating</div>
+        <div class="statush">status</div>
+        <div class="notesh">notes</div>
+</div>
+    <div class="posts">
+        {% set postslist = collections.media | head(-1 * 9999) %}
+        {% for post in postslist | reverse %}
+        <div class="review">
+            <div class="tmdate">            {{ post.date | readableDate("DDDD") }}            </div>
+            <div class="title">     								<a href="{{ post.url }}" class="postlist-link">
+                {{ post.data.title }}
+            </a>
+            </div>
+            <div class="publdate"> {{post.data.publisheddate | readableDate("DDDD")}} </div>
+            <div class="notes">            {{ post.data.description }}
+            </div>
+            <div class="rating">            {{ post.data.rating }}            </div>
+
+            <div class="status"> {{ post.data.status }} </div>
+           </div>
+           {% endfor %}
+
+        </div>
+    </div>
+</body>
+
+    </html>

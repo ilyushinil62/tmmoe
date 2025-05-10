@@ -28,41 +28,61 @@
 	
 	<url>
 		<loc>https://example.com/about/</loc>
-		<lastmod>2025-04-14</lastmod>
+		<lastmod>2025-05-05</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/blog/</loc>
-		<lastmod>2025-04-14</lastmod>
+		<lastmod>2025-05-05</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/friends/</loc>
-		<lastmod>2025-04-14</lastmod>
+		<lastmod>2025-05-05</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/guestbook/</loc>
-		<lastmod>2025-04-14</lastmod>
+		<lastmod>2025-05-05</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/</loc>
-		<lastmod>2025-04-14</lastmod>
+		<lastmod>2025-05-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/sitemap.xml</loc>
+		<lastmod>2025-05-05</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/tags/</loc>
-		<lastmod>2025-04-14</lastmod>
+		<lastmod>2025-05-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/media/</loc>
+		<lastmod>2025-05-07</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/feed/feed.xml</loc>
-		<lastmod>2025-05-02</lastmod>
+		<lastmod>2025-05-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/blog/test4/</loc>
 		<lastmod>2025-05-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/media/test4/</loc>
+		<lastmod>2025-05-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/media/test2/</loc>
+		<lastmod>2025-06-01</lastmod>
 	</url>
 </urlset>
